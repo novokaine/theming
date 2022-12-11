@@ -1,0 +1,24 @@
+button {
+  background: $button-color;
+  color: $text-color;
+  &:disabled {
+    background-color: rgba(#ccc, 0.8);
+  }
+}
+.class-one {
+  background: $primary-blue;
+}
+
+.class-two {
+  background-color: $primary-red;
+}
+
+.class-three {
+  background-color: $primary-green;
+}
+
+.class-one,
+.class-two,
+.class-three {
+  color: $text-color;
+}

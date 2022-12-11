@@ -1,0 +1,10 @@
+@import "../structure.scss";
+
+.theme-light {
+  @import "./theme-light.scss";
+  @import "./paint.scss";
+}
+.theme-dark {
+  @import "./theme-dark.scss";
+  @import "./paint.scss";
+}

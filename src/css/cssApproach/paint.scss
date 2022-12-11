@@ -1,0 +1,24 @@
+button {
+  background: var(--button-color);
+  color: var(--text-color);
+  &:disabled {
+    background-color: rgba(#ccc, 0.8);
+  }
+}
+.class-one {
+  background: var(--primary-blue);
+}
+
+.class-two {
+  background-color: var(--primary-red);
+}
+
+.class-three {
+  background-color: var(--primary-green);
+}
+
+.class-one,
+.class-two,
+.class-three {
+  color: var(--text-color);
+}
